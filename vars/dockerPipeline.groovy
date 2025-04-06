@@ -3,7 +3,7 @@ def call(Map config = [:]) {
         agent any
 
         environment {
-            IMAGE_NAME = config.imageName ?: "ray/image"
+            IMAGE_NAME = config.imageName ?: "bolawisa77/myapp"  
             TAG = config.tag ?: "latest"
         }
 
